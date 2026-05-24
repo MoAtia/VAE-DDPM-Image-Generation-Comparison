@@ -1,0 +1,16 @@
+Evaluating VAE …
+FID=229.92  IS=2.01±0.05
+Evaluating PercepVAE …
+  FID=140.70  IS=4.32±0.11
+Evaluating cVAE-AdaGN …
+  FID=118.64  IS=4.83±0.23
+Evaluating cVAE-Concat …
+  FID=119.14  IS=4.83±0.20
+
+──────────────────────────────────────────────────
+Model                   FID    IS (mean)   IS (std)
+──────────────────────────────────────────────────
+VAE                  229.92         2.01       0.05
+PercepVAE            140.70         4.32       0.11
+cVAE-AdaGN           118.64         4.83       0.23
+cVAE-Concat          119.14         4.83       0.20
