@@ -1,0 +1,64 @@
+============================================================
+Training VAE
+                                                                   
+  Epoch   1 │ total=0.1787  recon=0.1714  kl=0.0730  percep=0.0000
+                                                                   
+  Epoch   5 │ total=0.0992  recon=0.0846  kl=0.1457  percep=0.0000
+                                                                    
+  Epoch  10 │ total=0.0907  recon=0.0731  kl=0.1758  percep=0.0000
+                                                                    
+  Epoch  15 │ total=0.0867  recon=0.0675  kl=0.1917  percep=0.0000
+                                                                    
+  Epoch  20 │ total=0.0850  recon=0.0653  kl=0.1972  percep=0.0000
+                                                                    
+  Epoch  25 │ total=0.0839  recon=0.0637  kl=0.2018  percep=0.0000
+                                                                    
+  Epoch  30 │ total=0.0835  recon=0.0632  kl=0.2033  percep=0.0000
+============================================================
+Training PercepVAE
+                                                                      
+  Epoch   1 │ total=0.7024  recon=0.2317  kl=0.0177  percep=4.6895
+                                                                      
+  Epoch   5 │ total=0.5719  recon=0.0998  kl=0.1390  percep=4.5822
+                                                                       
+  Epoch  10 │ total=0.5394  recon=0.0788  kl=0.2080  percep=4.3980
+                                                                       
+  Epoch  15 │ total=0.5256  recon=0.0730  kl=0.2383  percep=4.2880
+                                                                       
+  Epoch  20 │ total=0.5163  recon=0.0693  kl=0.2617  percep=4.2080
+                                                                       
+  Epoch  25 │ total=0.5105  recon=0.0672  kl=0.2743  percep=4.1587
+                                                                       
+  Epoch  30 │ total=0.5087  recon=0.0667  kl=0.2773  percep=4.1428
+============================================================
+Training cVAE (AdaGN)
+                                                                    
+  Epoch   1 │ total=0.6796  recon=0.2060  kl=0.0322  percep=4.7043
+                                                                    
+  Epoch   5 │ total=0.5669  recon=0.0983  kl=0.1463  percep=4.5397
+                                                                     
+  Epoch  10 │ total=0.5335  recon=0.0775  kl=0.2074  percep=4.3518
+                                                                     
+  Epoch  15 │ total=0.5174  recon=0.0700  kl=0.2449  percep=4.2297
+                                                                     
+  Epoch  20 │ total=0.5088  recon=0.0669  kl=0.2622  percep=4.1572
+                                                                     
+  Epoch  25 │ total=0.5030  recon=0.0649  kl=0.2730  percep=4.1081
+                                                                     
+  Epoch  30 │ total=0.5012  recon=0.0644  kl=0.2755  percep=4.0932
+============================================================
+Training cVAE (Concat)
+                                                                    
+  Epoch   1 │ total=0.6607  recon=0.1850  kl=0.0542  percep=4.7021
+                                                                    
+  Epoch   5 │ total=0.5614  recon=0.0966  kl=0.1405  percep=4.5077
+                                                                     
+  Epoch  10 │ total=0.5328  recon=0.0776  kl=0.2097  percep=4.3421
+                                                                     
+  Epoch  15 │ total=0.5174  recon=0.0703  kl=0.2459  percep=4.2256
+                                                                     
+  Epoch  20 │ total=0.5081  recon=0.0667  kl=0.2663  percep=4.1480
+                                                                     
+  Epoch  25 │ total=0.5029  recon=0.0650  kl=0.2760  percep=4.1027
+                                                                     
+  Epoch  30 │ total=0.5008  recon=0.0644  kl=0.2795  percep=4.0852

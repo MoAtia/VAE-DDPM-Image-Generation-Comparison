@@ -1,0 +1,23 @@
+{
+    "data_root": "./data",
+    "image_size": 32,
+    "num_classes": 10,
+    "latent_dim": 128,
+    "base_channels": 64,
+    "channel_mults": [
+        1,
+        2,
+        4
+    ],
+    "num_res_blocks": 2,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "epochs": 30,
+    "kl_weight": 0.1,
+    "percep_weight": 0.1,
+    "num_workers": 4,
+    "log_every": 5,
+    "sample_n": 64,
+    "use_attention": true,
+    "attn_heads": 1
+}
