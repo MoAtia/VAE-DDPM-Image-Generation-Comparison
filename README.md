@@ -3,7 +3,7 @@
 
 ## VAE Experiments
 
-To reproduce the VAE results, rerun the notebook after updating the model configuration with the parameters reported in the report/documentation.
+To reproduce the VAE results, rerun the notebook after updating the model configuration with the parameters reported in `vae_report.pdf`.
 
 Configuration files (`config.json`) can be found in the following experiment directories:
 
@@ -14,6 +14,7 @@ with_KL_equals_one_over_ten_and_30_epoch
 with_KL_equals_one_over_ten_for_30_epoch_with_atten
 with_KL_equals_one_over_ten_for_30_epoch_with_atten_interpolation_upsampling
 ```
+**Note** : The last two experiment are not reported.
 
 Each directory contains the corresponding experiment configuration and hyperparameters used during training.
 
@@ -23,7 +24,7 @@ For the DDPM experiments, running all notebook cells sequentially should reprodu
 
 ## Notes on Reproducibility
 
-The codebase was not fully standardized for deterministic reproducibility (e.g., complete seed control and environment locking were not finalized). However, based on multiple reruns, the obtained results remain relatively stable and do not show significant variance.
+The codebase was not fully standardized for deterministic reproducibility. However, based on multiple reruns for some experiments, the obtained results remain relatively stable and do not show significant variance.
 
 ## Additional Experiments
 
